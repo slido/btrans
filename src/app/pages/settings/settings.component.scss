@@ -1,0 +1,51 @@
+.grid-container {
+  margin: 20px;
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+.settings-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-container > * {
+  width: 100%;
+}
+
+.settings-container .mat-checkbox,
+.settings-container .mat-radio-group {
+  padding:30px 0;
+}
+
+.settings-container .mat-radio-button {
+  padding:0 0 10px 0;
+  display:block;
+  width:100%;
+}
+
+.settings-container .form-group label {
+  width: 100%;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.settings-container .form-group {
+  padding-bottom:30px;
+}

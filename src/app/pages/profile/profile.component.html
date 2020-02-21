@@ -1,0 +1,26 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Profile</h1>
+
+  <form #f="ngForm" (ngSubmit)="changeData(f)">
+
+    <div class="profile-container">
+
+      <mat-form-field>
+        <input matInput placeholder="Email">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="First Name">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Last Name">
+      </mat-form-field>
+      <mat-form-field>
+        <input md-raised-button matInput placeholder="Gender">
+      </mat-form-field>
+
+      <button color="primary" mat-raised-button>SAVE</button>
+
+    </div>
+
+  </form>
+</div>
