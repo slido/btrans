@@ -26,6 +26,8 @@
         <mat-menu #menu="matMenu" xPosition="before">
           <button mat-menu-item routerLink="/profile">Profile</button>
           <button mat-menu-item routerLink="/settings">Settings</button>
+          <button mat-menu-item routerLink="/send-btc">Send Btc</button>
+
           <button mat-menu-item (click)="logout()" *ngIf="userLoggedIn">Logout</button>
         </mat-menu>
 

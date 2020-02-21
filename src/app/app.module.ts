@@ -37,6 +37,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MainComponent } from './shared/components/main/main.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { SettingsComponent } from './pages/settings/settings.component';
+import { SendBtcComponent } from './pages/send-btc/send-btc.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { SettingsComponent } from './pages/settings/settings.component';
     HomeComponent,
     MainComponent,
     ProfileComponent,
-    SettingsComponent
+    SettingsComponent,
+    SendBtcComponent
   ],
   imports: [
     BrowserModule,

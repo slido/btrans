@@ -6,7 +6,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { MainComponent } from './shared/components/main/main.component';
 import { AuthGuard } from './shared/guards/auth-guard';
 import { SettingsComponent } from './pages/settings/settings.component';
-
+import { SendBtcComponent } from './pages/send-btc/send-btc.component';
 const routes: Routes = [
   {
     path: 'login',
@@ -21,6 +21,7 @@ const routes: Routes = [
       { path: 'dashboard', component: HomeComponent},
       { path: 'settings', component: SettingsComponent},
       { path: 'profile', component: ProfileComponent},
+      { path: 'send-btc', component: SendBtcComponent},
       { path: '**', redirectTo: '/dashboard'}
     ]
   }
